@@ -29,10 +29,13 @@ table h2{
 }
 
 body{
-    background-image: image-set(size);
-    size-adjust: 60%;
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .login {
-    background-color: rgb(129, 0, 0);
+    background-color: rgb(106, 106, 106);
 }
