@@ -1,0 +1,38 @@
+
+
+#topnav1{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: fantasy;
+    
+}
+table h2{
+    color: aqua;
+}
+
+.collum{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 30%;
+}
+
+/* Colunas */
+
+.column {
+    float: left;
+    width: 50%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    background-image: image-set(size);
+    size-adjust: 60%;
+}
+
+.login {
+    background-color: rgb(129, 0, 0);
+}
